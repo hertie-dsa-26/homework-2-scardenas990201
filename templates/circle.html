@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>Circle Perimeter Calculator</h1>
+<form method="post">
+    <input type="text" name="radius" placeholder="Enter radius" required="required" />
+    <button type="submit">Calculate Perimeter</button>
+</form>
+
+<br>
+
+{{ printed_result }}
+{% endblock %}
